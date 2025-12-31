@@ -1,5 +1,6 @@
 # SkillDeltaX  
-### From Resume Match to Real Market Fit
+### From Resume Match to Real Market Fit  
+#### An Agentic AI–Driven Career Readiness & Diagnosis Platform
 
 **Track:** Agentic AI  
 **Problem Domain:** Career Intelligence & Decision Support  
@@ -9,11 +10,13 @@
 
 ## 1. Introduction
 
-SkillDeltaX is an **Agentic AI–based career readiness platform** that helps candidates understand *why* they get rejected during hiring processes and *what exactly* they need to improve to become competitive.
+SkillDeltaX is an **Agentic AI–based career readiness platform** designed for **final-year students and early professionals applying to competitive technical roles** who face repeated rejections despite meeting basic job requirements.
+
+The platform helps candidates understand *why* they get rejected during hiring processes and *what exactly* they need to improve to become competitive.
 
 Unlike existing career platforms that provide isolated resume scores, aptitude tests, or generic recommendations, SkillDeltaX focuses on **comparative career diagnosis**. It evaluates a candidate **relative to profiles that actually get selected**, uncovering hidden gaps that are otherwise invisible.
 
-The system is designed to act as a **career co-pilot**, continuously analyzing the user’s profile, reasoning over skill and market expectations, planning improvement steps, and delivering actionable guidance.
+The system is designed to act as a **career co-pilot**, continuously analyzing the user’s profile, reasoning over skill and market expectations, planning improvement steps, and delivering actionable guidance grounded in real hiring outcomes.
 
 ---
 
@@ -36,7 +39,7 @@ Most existing platforms fail because they:
 - Provide absolute scores without context  
 - Offer generic advice disconnected from real hiring benchmarks  
 
-As a result, candidates prepare blindly, often improving the *wrong* areas.
+As a result, candidates often prepare blindly, improving areas that do not actually influence selection.
 
 ---
 
@@ -45,7 +48,7 @@ As a result, candidates prepare blindly, often improving the *wrong* areas.
 **Rejection is relative, not absolute.**
 
 Candidates are not rejected because they lack skills entirely —  
-they are rejected because **other candidates perform better along specific dimensions**.
+they are rejected because **other candidates perform better along specific dimensions that matter during selection**.
 
 SkillDeltaX is built on the insight that **career readiness must be evaluated comparatively**, not independently.
 
@@ -65,12 +68,12 @@ This twin evolves as the candidate improves.
 ### Ghost Twin (Benchmark Representation)
 An aggregated representation constructed from profiles of candidates who have **successfully cleared hiring processes** for similar roles.
 
-This twin represents *what “selection-ready” actually looks like*.
+This twin represents *what “selection-ready” actually looks like in practice*.
 
 ### Hidden Wall
 The **Hidden Wall** refers to the exact skill, level, or competency gap between the Digital Twin and the Ghost Twin that prevents selection.
 
-SkillDeltaX explicitly surfaces this Hidden Wall.
+SkillDeltaX explicitly surfaces this Hidden Wall instead of masking it behind generic feedback.
 
 ---
 
@@ -211,8 +214,8 @@ SkillDeltaX stands apart because it:
 
 ## 12. Conclusion
 
-SkillDeltaX aims to convert career preparation from guesswork into an **explainable, structured, and data-driven process**.
+SkillDeltaX aims to convert career preparation from trial-and-error into a **clear, explainable, and benchmark-driven process**.
 
-By explicitly modeling both the candidate and the competition, the platform provides clarity where traditional career tools fail.
+By explicitly modeling both the candidate and the competition, the platform provides clarity where traditional career tools fall short.
 
 This project demonstrates a **practical and disciplined application of Agentic AI** to real-world career decision support.
