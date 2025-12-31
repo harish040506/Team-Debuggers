@@ -8,6 +8,14 @@
 
 ---
 
+## At a Glance (for quick review)
+
+- **Problem:** Candidates face repeated rejections due to opaque, black-box hiring decisions.  
+- **Approach:** Compare a candidate’s profile (Digital Twin) against profiles that actually get selected (Ghost Twin).  
+- **Outcome:** Clear, explainable identification of the exact gaps blocking selection, instead of generic scores or advice.
+
+---
+
 ## 1. Introduction
 
 SkillDeltaX is an **Agentic AI–based career readiness platform** designed for **final-year students and early professionals applying to competitive technical roles** who face repeated rejections despite meeting basic job requirements.
@@ -219,3 +227,9 @@ SkillDeltaX aims to convert career preparation from trial-and-error into a **cle
 By explicitly modeling both the candidate and the competition, the platform provides clarity where traditional career tools fall short.
 
 This project demonstrates a **practical and disciplined application of Agentic AI** to real-world career decision support.
+
+---
+
+### Shortlisting Note
+
+SkillDeltaX is designed to be feasible within a hackathon timeline while addressing a real, recurring hiring pain point through structured reasoning rather than surface-level automation.
