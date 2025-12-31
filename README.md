@@ -1,5 +1,5 @@
-# Career Compass  
-### An Agentic AI–Driven Career Readiness & Diagnosis Platform
+# SkillDeltaX  
+### From Resume Match to Real Market Fit
 
 **Track:** Agentic AI  
 **Problem Domain:** Career Intelligence & Decision Support  
@@ -9,9 +9,9 @@
 
 ## 1. Introduction
 
-Career Compass is an **Agentic AI–based career readiness platform** that helps candidates understand *why* they get rejected during hiring processes and *what exactly* they need to improve to become competitive.
+SkillDeltaX is an **Agentic AI–based career readiness platform** that helps candidates understand *why* they get rejected during hiring processes and *what exactly* they need to improve to become competitive.
 
-Unlike existing career platforms that provide isolated resume scores, aptitude tests, or generic recommendations, Career Compass focuses on **comparative career diagnosis**. It evaluates a candidate **relative to profiles that actually get selected**, uncovering hidden gaps that are otherwise invisible.
+Unlike existing career platforms that provide isolated resume scores, aptitude tests, or generic recommendations, SkillDeltaX focuses on **comparative career diagnosis**. It evaluates a candidate **relative to profiles that actually get selected**, uncovering hidden gaps that are otherwise invisible.
 
 The system is designed to act as a **career co-pilot**, continuously analyzing the user’s profile, reasoning over skill and market expectations, planning improvement steps, and delivering actionable guidance.
 
@@ -47,7 +47,7 @@ As a result, candidates prepare blindly, often improving the *wrong* areas.
 Candidates are not rejected because they lack skills entirely —  
 they are rejected because **other candidates perform better along specific dimensions**.
 
-Career Compass is built on the insight that **career readiness must be evaluated comparatively**, not independently.
+SkillDeltaX is built on the insight that **career readiness must be evaluated comparatively**, not independently.
 
 ---
 
@@ -70,7 +70,7 @@ This twin represents *what “selection-ready” actually looks like*.
 ### Hidden Wall
 The **Hidden Wall** refers to the exact skill, level, or competency gap between the Digital Twin and the Ghost Twin that prevents selection.
 
-Career Compass explicitly surfaces this Hidden Wall.
+SkillDeltaX explicitly surfaces this Hidden Wall.
 
 ---
 
@@ -97,7 +97,7 @@ This dataset acts as the **foundation layer** for resume understanding and bench
 
 ## 6. System Architecture (High Level)
 
-Career Compass is designed as a **layered agentic system**:
+SkillDeltaX is designed as a **layered agentic system**:
 
 1. **Profile Understanding Layer**
    - Resume parsing
@@ -127,7 +127,7 @@ Career Compass is designed as a **layered agentic system**:
 
 ## 7. Agentic AI Alignment
 
-Career Compass follows a **Think → Plan → Act** loop:
+SkillDeltaX follows a **Think → Plan → Act** loop:
 
 ### Think
 - Analyze resume entities
@@ -198,9 +198,9 @@ These enhancements extend the existing architecture without changing the core co
 
 ---
 
-## 11. Why Career Compass is Different
+## 11. Why SkillDeltaX is Different
 
-Career Compass stands apart because it:
+SkillDeltaX stands apart because it:
 - Explains rejection in a **comparative context**
 - Uses real selection benchmarks
 - Prioritizes diagnosis before advice
@@ -211,7 +211,7 @@ Career Compass stands apart because it:
 
 ## 12. Conclusion
 
-Career Compass aims to convert career preparation from guesswork into an **explainable, structured, and data-driven process**.
+SkillDeltaX aims to convert career preparation from guesswork into an **explainable, structured, and data-driven process**.
 
 By explicitly modeling both the candidate and the competition, the platform provides clarity where traditional career tools fail.
 
