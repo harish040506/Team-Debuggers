@@ -15,10 +15,30 @@ Instead of providing generic career advice or isolated test scores, Career Compa
 
 The platform follows an Agentic AI paradigm, where the system continuously:
 
-Understands the user’s profile
+  a. Understands the user’s profile
+  b. Reasons over skills, roles, and market expectations
+  c. Plans personalized improvement paths
+  d. Provides actionable feedback and next steps
 
-Reasons over skills, roles, and market expectations
 
-Plans personalized improvement paths
+2. Problem Statement
 
-Provides actionable feedback and next steps
+Hiring today operates as a black box.
+
+Many candidates:
+
+  a. Meet the stated job requirements
+  b. Perform reasonably well in tests
+  c. Still get rejected repeatedly
+
+Existing career platforms typically focus on:
+
+  a. Resume scoring
+  b. Aptitude tests
+  c. Generic skill recommendations
+
+However, these systems do not explain rejection in a comparative context. They fail to answer the most important question candidates have:
+
+“Why was someone else selected instead of me?”
+
+The lack of transparency leads to confusion, misdirected preparation, and repeated failure without clear feedback.
