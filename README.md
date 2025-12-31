@@ -1,44 +1,134 @@
 # Team-Debuggers
 Repository for AI-VERSE Hackathon (Anokha - 2026)
 
-Career Compass – Agentic AI Career Readiness Platform
-Team Name: Team Debuggers
-Team Lead: Harish Manukonda
-Track: Agentic AI
-Status: Idea + Partial Implementation
+# Career Compass – Agentic AI Career Readiness Platform
 
-1. Overview
+**Track:** Agentic AI  
+**Category:** Career Intelligence & Decision Support  
+**Status:** Idea + Partial Implementation  
 
-Career Compass is an AI-driven career readiness and diagnosis platform designed to help final-year students and early-career professionals understand why they get rejected during job applications and what exactly they need to improve.
+---
 
-Instead of providing generic career advice or isolated test scores, Career Compass introduces a comparison-based evaluation approach. The system benchmarks a user’s profile against profiles of candidates who actually get selected and surfaces hidden gaps that traditional tools fail to reveal.
+## 1. Overview
 
-The platform follows an Agentic AI paradigm, where the system continuously:
+Career Compass is an AI-driven career readiness and diagnosis platform designed for final-year students and early-career professionals preparing for technical roles.
 
-  a. Understands the user’s profile
-  b. Reasons over skills, roles, and market expectations
-  c. Plans personalized improvement paths
-  d. Provides actionable feedback and next steps
+Instead of providing generic career advice or isolated test scores, Career Compass uses a comparison-based evaluation approach. The system benchmarks a user’s profile against profiles of candidates who actually get selected and surfaces hidden gaps that traditional tools fail to reveal.
 
+The platform follows an Agentic AI paradigm, where the system continuously understands the user’s profile, reasons over skills and role requirements, plans improvement actions, and provides actionable feedback.
 
-2. Problem Statement
+---
+
+## 2. Problem Statement
 
 Hiring today operates as a black box.
 
-Many candidates:
+Many candidates meet job requirements and perform reasonably well in tests, yet face repeated rejections without clear feedback. Existing platforms focus on resume scoring or aptitude tests but fail to explain how candidates compare against real competition.
 
-  a. Meet the stated job requirements
-  b. Perform reasonably well in tests
-  c. Still get rejected repeatedly
+The core problem is the lack of comparative insight in career evaluation.
 
-Existing career platforms typically focus on:
+---
 
-  a. Resume scoring
-  b. Aptitude tests
-  c. Generic skill recommendations
+## 3. Core Insight
 
-However, these systems do not explain rejection in a comparative context. They fail to answer the most important question candidates have:
+Rejection is relative, not absolute.
 
-“Why was someone else selected instead of me?”
+Candidates are evaluated against other candidates, not in isolation. Without understanding this comparison, users cannot identify the real gaps blocking their selection.
 
-The lack of transparency leads to confusion, misdirected preparation, and repeated failure without clear feedback.
+Career Compass explicitly models this comparison.
+
+---
+
+## 4. Our Approach
+
+### Digital Twin vs Ghost Twin Framework
+
+- **Digital Twin:**  
+  A structured representation of the user’s profile, including skills, education, role preferences, and assessment performance.
+
+- **Ghost Twin:**  
+  An aggregated representation derived from profiles of candidates who have successfully cleared hiring processes.
+
+By comparing these two representations, the system identifies skill gaps, role-readiness mismatches, and hidden deficiencies that are not visible in standalone evaluations.
+
+---
+
+## 5. Dataset Utilized
+
+The project uses the **Entity Recognition in Resumes** dataset from Kaggle (JSON format).
+
+The dataset includes labeled resume entities such as:
+- Skills  
+- Designation / Role  
+- Education details  
+- Experience and company mentions  
+- Location and contact metadata  
+
+This enables structured resume parsing and comparative profile construction.
+
+---
+
+## 6. System Capabilities
+
+- AI-based resume analysis for skill extraction  
+- Digital Twin–based career gap diagnosis  
+- Role-specific guidance and resume tailoring  
+- 3-level adaptive skill assessment framework  
+- Level-based feedback with targeted improvement suggestions  
+- AI-powered mock interview module for communication evaluation  
+
+The LLM component is used for reasoning and explanation, not as the core decision logic.
+
+---
+
+## 7. Agentic AI Alignment
+
+Career Compass follows a Think → Plan → Act loop:
+
+- **Think:** Analyze user profile and assessment outcomes  
+- **Plan:** Identify gaps and decide next evaluation steps  
+- **Act:** Deliver assessments, feedback, and readiness guidance  
+
+This enables adaptive behavior instead of static responses.
+
+---
+
+## 8. Current Implementation Status
+
+This project is partially implemented.
+
+Completed and in-progress components include:
+- Resume parsing and entity extraction logic  
+- Assessment flow design with level-based progression  
+- UI mockups and prototype user journey  
+- Initial backend logic and architecture setup  
+
+Screenshots and demo visuals are included for reference.
+
+---
+
+## 9. Planned Enhancements
+
+- Full Digital Twin vs Ghost Twin comparative scoring  
+- Success Probability estimation based on benchmark gaps  
+- Expanded interview evaluation and feedback loop  
+- Iterative improvement tracking across attempts  
+
+---
+
+## 10. Why This Solution is Different
+
+Career Compass differs from existing platforms by:
+- Explaining rejection in a comparative context  
+- Using real selection benchmarks instead of generic advice  
+- Focusing on diagnosis before guidance  
+- Treating career readiness as an evolving, adaptive process  
+
+---
+
+## 11. Conclusion
+
+Career Compass aims to transform career preparation from guesswork into an explainable, data-driven process. By modeling both the candidate and the competition, the system provides clarity where existing tools fall short.
+
+This project demonstrates a structured application of Agentic AI for real-world decision support.
+
